@@ -8,7 +8,7 @@ pipeline{
         stage('SCM'){
             steps{
                 git credentialsId: 'github', 
-                    url: 'https://github.com/sharmauma/sonarepo'
+                    url: 'https://github.com/sharmauma/my-app/'
             }
         }
         
